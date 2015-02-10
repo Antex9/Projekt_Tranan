@@ -1,0 +1,239 @@
+#Header {
+    width: 100%;
+    height: 20%;
+    background-color: #7a2221;
+    position: fixed;
+    top: 0;
+}
+
+@media (orientation: landscape) {
+
+    #box {
+        display: none;
+    }
+
+    #box2 {
+        display: true;
+    }
+}
+
+@media (orientation: portrait) {
+
+    #box {
+        display: none;
+    }
+
+    #box2 {
+        display: true;
+    }
+}
+
+#Tranan {
+    color: white;
+    font-size: 30px;
+    top: 0px;
+    position: fixed;
+    margin-left: 5%;
+
+}
+
+#Home {
+    color: white;
+    font-size: 30px;
+    top: 0px;
+    position: fixed;
+    margin-left: 25%;
+}
+
+#Bokningar {
+    color: white;
+    font-size: 30px;
+    top: 0px;
+    position: fixed;
+    margin-left: 40%;
+}
+
+#banner{
+
+    width: 1240px;
+    height: 1000px;
+    background-color: floralwhite;
+    float: left;
+    border: 20px solid indianred;
+    margin-top: 146px;
+}
+
+#banner ul{
+
+    list-style: none;
+    padding: 0;
+}
+
+#Hitta_oss {
+    color: white;
+    font-size: 30px;
+    top: -1.5%;
+    position: fixed;
+    margin-left: 65%;
+}
+
+A.class1 {color:white;}
+A.class1:link  {text-decoration: none; color: white;}
+A.class1:visited {text-decoration: none; color: white;}
+A.class1:hover {text-decoration: underline; color: orangered;}
+A.class1:active {text-decoration: none; color: orangered;}
+
+body {
+
+    margin: 0;
+    /*background-image: url("../Images/background.jpg");*/
+    background: url("../Images/background.jpg") cover top;
+}
+
+#info {
+
+    margin-top: 146px;
+}
+
+#left_menu {
+
+    width: 386px;
+    height: 800px;
+    background-color: floralwhite;
+    float: left;
+    border: 20px solid indianred;
+}
+
+#left_menu ul{
+
+    list-style: none;
+    padding: 0;
+}
+
+.Menu_item{
+
+    text-align: left;
+    color: dimgray;
+    display: inline;
+    float: left;
+    margin-left: 10%;
+}
+
+.Menu_price{
+
+    text-align: right;
+    color: dimgray;
+    display: inline;
+    float: right;
+    margin-right: 10%;
+
+}
+
+.list_item {
+
+    display: inline;
+}
+
+#middle_menu{
+
+    width: 428px;
+    height: 800px;
+    background-color: floralwhite;
+    float: left;
+    border-top: 20px solid indianred;
+    border-bottom: 20px solid indianred;
+}
+
+#Cheese{
+
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.Text_alignment{
+
+    width: 80%;
+    margin-left: 10%;
+}
+
+#right_menu{
+
+    width: 386px;
+    height: 800px;
+    background-color: floralwhite;
+    float: left;
+    border: 20px solid indianred;
+}
+
+#signup {
+
+    margin-top: 70px;
+
+}
+
+#skapakonto {
+
+    margin-bottom: 100px;
+}
+
+#filler{
+
+    color: white;
+}
+
+#Footer {
+    width: 100%;
+    height: 15%;
+    background-color: #1f3e73;
+    min-height: 40px;
+    min-width: 40px;
+}
+
+#Facebook {
+    float:left;
+    margin-left: 50px;
+    margin-top: 2.45%;
+}
+
+#Twitter {
+    float: left;
+    margin-left: 50px;
+    margin-top: 2.5%;
+}
+
+#Mail {
+
+    float: left;
+    margin-left: 80px;
+    margin-top: 3%;
+    color: white;
+    font-size: 20px;
+}
+
+#Telefon {
+
+    float: left;
+    margin-left: 80px;
+    margin-top: 3%;
+    color: white;
+    font-size: 20px;
+}
+
+#opening_hours_text {
+
+    float: left;
+    margin-left: 80px;
+    margin-top: 3%;
+    color: white;
+    font-size: 20px;
+}
+
+#opening_hours {
+
+    float: left;
+    margin-left: 30px;
+    margin-top: 2.5%;
+    color: white;
+    font-size: 15px;
+}
